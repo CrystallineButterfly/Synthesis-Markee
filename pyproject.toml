@@ -1,9 +1,13 @@
+
 [project]
 name = "synthesis_markee"
 version = "0.1.0"
 description = "A repo-stewarding agent that drafts updates, messages, and build-story artifacts for public codebases while maintaining a verifiable audit trail."
 readme = "README.md"
 requires-python = ">=3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 100
