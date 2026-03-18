@@ -1,6 +1,6 @@
 # Repo Steward Agent
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-Markee
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Markee
 - **Primary track:** Markee
 - **Overlap targets:** OpenServ, Filecoin, ENS, Bankr Gateway, Octant, Ampersend
 - **Primary contract:** RepoStewardCampaign
