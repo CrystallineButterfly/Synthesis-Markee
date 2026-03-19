@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `RepoStewardCampaign`
+- live-only partners: Markee, OpenServ, Bankr Gateway, Octant, Ampersend
+- offline-prepared partners: Filecoin (prepared_filecoin_bundle), ENS (prepared_contract_call)
+- highest-sensitivity actions: bankr_gateway_compute_route
+- latest verification artifact: `artifacts/verification/0x32b97607a04ca8e3335d0c928a3b818e506fff2bc7716817939a29e0da33da85.json`
+
 ## Current posture
 
 ### Good

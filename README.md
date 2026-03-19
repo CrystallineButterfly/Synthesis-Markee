@@ -5,7 +5,7 @@
 - **Category:** autonomy
 - **Primary contract:** `RepoStewardCampaign`
 - **Primary module:** `repo_steward`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,31 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:14+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** Filecoin (prepared_filecoin_bundle), ENS (prepared_contract_call)
+- **Live credential blockers:** Markee, OpenServ, Bankr Gateway, Octant, Ampersend
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `bankr_gateway_compute_route` (Bankr Gateway, high)
+
+## Live blocker details
+
+- **Markee** — MARKEE_API_KEY, MARKEE_MESSAGE_URL — https://markee.xyz/
+- **OpenServ** — OPENSERV_API_KEY, OPENSERV_AGENT_URL — https://docs.openserv.ai/
+- **Bankr Gateway** — BANKR_API_KEY, BANKR_CHAT_COMPLETIONS_URL, BANKR_MODEL — https://bankr.bot/
+- **Octant** — OCTANT_SIGNAL_URL — https://octant.app/
+- **Ampersend** — AMPERSEND_API_KEY, AMPERSEND_PAYMENT_URL — https://docs.ampersend.ai/
+
+## Latest evidence artifacts
+
+- `artifacts/filecoin/0x32b97607a04ca8e3335d0c928a3b818e506fff2bc7716817939a29e0da33da85.json`
+- `artifacts/onchain_intents/ens_ens_publish.json`
 
 ## Security controls
 
