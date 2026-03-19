@@ -7,5 +7,585 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x49cff8bf4a2f21f3885b3cabf417349263f4577a0ef7312386311b463f0b00e9"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x31e78d623815789e3ea726683c976917fd4e5d77fa5606b79000284af96b3013"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "ENS_NAME",
+        "FILECOIN_API_TOKEN",
+        "FILECOIN_UPLOAD_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Repo Steward Agent",
+      "track": "Markee",
+      "plan_id": "0x49cff8bf4a2f21f3885b3cabf417349263f4577a0ef7312386311b463f0b00e9",
+      "simulation_hash": "0x31e78d623815789e3ea726683c976917fd4e5d77fa5606b79000284af96b3013",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:12+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x49cff8bf4a2f21f3885b3cabf417349263f4577a0ef7312386311b463f0b00e9"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x31e78d623815789e3ea726683c976917fd4e5d77fa5606b79000284af96b3013"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "ENS_NAME",
+        "FILECOIN_API_TOKEN",
+        "FILECOIN_UPLOAD_URL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:12+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Repo Steward Agent",
+      "track": "Markee",
+      "plan_id": "0x49cff8bf4a2f21f3885b3cabf417349263f4577a0ef7312386311b463f0b00e9",
+      "simulation_hash": "0x31e78d623815789e3ea726683c976917fd4e5d77fa5606b79000284af96b3013",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:12+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "RepoStewardCampaign.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:56+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:56+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x6e7237ec264d9239b47200e96cc87bb7a2f88474507dd2ca70c17c6a4f8c1c49",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:56+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x06859da2dfc147f5ed60fdac0a9e8a38525c6d8fc9bdcad1bca5ba0c255a3d12"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:56+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:56+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Repo Steward Agent",
+      "track": "Markee",
+      "plan_id": "0x6e7237ec264d9239b47200e96cc87bb7a2f88474507dd2ca70c17c6a4f8c1c49",
+      "simulation_hash": "0x06859da2dfc147f5ed60fdac0a9e8a38525c6d8fc9bdcad1bca5ba0c255a3d12",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/filecoin/0x6e7237ec264d9239b47200e96cc87bb7a2f88474507dd2ca70c17c6a4f8c1c49.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "Markee": "awaiting_credentials",
+        "OpenServ": "awaiting_credentials",
+        "Filecoin": "prepared_filecoin_bundle",
+        "ENS": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "Ampersend": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:48:56+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:45+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:45+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xd9ed1e606686dc36791cf0df9a4dbe9cb61ae4106c166f80cbcaa3f0e0a39150",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:45+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x795c239fd218efabfe8f66ffef522af29206a0b963098e6e387c84bb95cb3969"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:45+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:45+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Repo Steward Agent",
+      "track": "Markee",
+      "plan_id": "0xd9ed1e606686dc36791cf0df9a4dbe9cb61ae4106c166f80cbcaa3f0e0a39150",
+      "simulation_hash": "0x795c239fd218efabfe8f66ffef522af29206a0b963098e6e387c84bb95cb3969",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/filecoin/0xd9ed1e606686dc36791cf0df9a4dbe9cb61ae4106c166f80cbcaa3f0e0a39150.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "Markee": "awaiting_credentials",
+        "OpenServ": "awaiting_credentials",
+        "Filecoin": "prepared_filecoin_bundle",
+        "ENS": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "Ampersend": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:50:45+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x94b71d46cbf9b7f4b5b58fe63082e8c08c472d266abbef1d94c7d1a87281cd69",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x5c01b18d2133d5a70e1ef5493278561a8de775bb1c605e6a85efbf82331737e2"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Repo Steward Agent",
+      "track": "Markee",
+      "plan_id": "0x94b71d46cbf9b7f4b5b58fe63082e8c08c472d266abbef1d94c7d1a87281cd69",
+      "simulation_hash": "0x5c01b18d2133d5a70e1ef5493278561a8de775bb1c605e6a85efbf82331737e2",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/filecoin/0x94b71d46cbf9b7f4b5b58fe63082e8c08c472d266abbef1d94c7d1a87281cd69.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "Markee": "awaiting_credentials",
+        "OpenServ": "awaiting_credentials",
+        "Filecoin": "prepared_filecoin_bundle",
+        "ENS": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "Ampersend": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:51:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x32b97607a04ca8e3335d0c928a3b818e506fff2bc7716817939a29e0da33da85",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x813170b7bef6c96b4b4366e6c603bc8c85c7d279ba0d47e779aafa621f3a58c7"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "MARKEE_API_KEY",
+        "MARKEE_MESSAGE_URL",
+        "OCTANT_SIGNAL_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Repo Steward Agent",
+      "track": "Markee",
+      "plan_id": "0x32b97607a04ca8e3335d0c928a3b818e506fff2bc7716817939a29e0da33da85",
+      "simulation_hash": "0x813170b7bef6c96b4b4366e6c603bc8c85c7d279ba0d47e779aafa621f3a58c7",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/filecoin/0x32b97607a04ca8e3335d0c928a3b818e506fff2bc7716817939a29e0da33da85.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "Markee": "awaiting_credentials",
+        "OpenServ": "awaiting_credentials",
+        "Filecoin": "prepared_filecoin_bundle",
+        "ENS": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "Ampersend": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:52:14+00:00"
+    }
   }
 ]
